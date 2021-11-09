@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="adq-aP-et5">
-                                <rect key="frame" x="10" y="0.0" width="300" height="504.5"/>
+                                <rect key="frame" x="10" y="0.0" width="300" height="512.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HzM-Kx-20p">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
@@ -97,13 +97,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Tc2-Xu-Yn3">
-                                        <rect key="frame" x="0.0" y="305" width="300" height="31"/>
+                                        <rect key="frame" x="0.0" y="305" width="300" height="39.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="7Qp-TI-nNZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="300" height="31"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="7Qp-TI-nNZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="39.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6C-YV-eFT">
-                                                        <rect key="frame" x="0.0" y="0.0" width="71.5" height="31"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="39.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="s6C-YV-eFT" secondAttribute="height" multiplier="71:31" id="Vkg-fc-9I5"/>
                                                         </constraints>
@@ -114,7 +114,7 @@
                                                         </buttonConfiguration>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFS-Xe-fMa">
-                                                        <rect key="frame" x="114.5" y="0.0" width="71" height="31"/>
+                                                        <rect key="frame" x="105" y="0.0" width="90" height="39.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="XFS-Xe-fMa" secondAttribute="height" multiplier="71:31" id="cFY-EA-bIt"/>
                                                         </constraints>
@@ -125,7 +125,7 @@
                                                         </buttonConfiguration>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPg-ow-1z7">
-                                                        <rect key="frame" x="228.5" y="0.0" width="71.5" height="31"/>
+                                                        <rect key="frame" x="210" y="0.0" width="90" height="39.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="EPg-ow-1z7" secondAttribute="height" multiplier="71:31" id="nZv-Dw-LJy"/>
                                                         </constraints>
@@ -144,20 +144,20 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="urj-kA-lgI">
-                                        <rect key="frame" x="0.0" y="356" width="300" height="97.5"/>
+                                        <rect key="frame" x="0.0" y="364.5" width="300" height="97"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2JU-Cg-uQN">
-                                                <rect key="frame" x="0.0" y="0.0" width="300" height="97.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="97"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Eem-We-nPV">
-                                                        <rect key="frame" x="0.0" y="0.0" width="194.5" height="97.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="194.5" height="97"/>
                                                         <color key="backgroundColor" red="0.26442889689999999" green="0.1741497749" blue="0.32996622720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="Eem-We-nPV" secondAttribute="height" multiplier="2" id="F63-qa-AmH"/>
                                                         </constraints>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fyv-7j-ATO">
-                                                        <rect key="frame" x="202.5" y="0.0" width="97.5" height="97.5"/>
+                                                        <rect key="frame" x="202.5" y="0.0" width="97.5" height="97"/>
                                                         <color key="backgroundColor" red="0.56131563210000002" green="0.53451279650000005" blue="0.63525162530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="tintColor" red="0.56131563210000002" green="0.53451279650000005" blue="0.63525162530000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
@@ -169,7 +169,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ELF-mM-mFp">
-                                        <rect key="frame" x="0.0" y="473.5" width="300" height="31"/>
+                                        <rect key="frame" x="0.0" y="481.5" width="300" height="31"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yf2-Cg-AJC">
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="31"/>
