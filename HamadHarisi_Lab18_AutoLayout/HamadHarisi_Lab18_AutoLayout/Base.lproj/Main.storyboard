@@ -84,22 +84,16 @@
                                     <color key="baseForegroundColor" red="0.85098040100000005" green="0.87058818339999999" blue="0.89803922179999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man-in-hike" translatesAutoresizingMaskIntoConstraints="NO" id="viV-R5-BE9">
-                                <rect key="frame" x="0.0" y="49" width="428" height="353"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="viV-R5-BE9" secondAttribute="height" multiplier="428:353" id="nAl-ud-h4G"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="man-in-hike" translatesAutoresizingMaskIntoConstraints="NO" id="viV-R5-BE9">
+                                <rect key="frame" x="0.0" y="49" width="620.66666666666663" height="512"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BlT-VD-jop"/>
                         <color key="backgroundColor" red="0.87843137979999997" green="0.88627451660000001" blue="0.91372549530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="viV-R5-BE9" firstAttribute="leading" secondItem="BlT-VD-jop" secondAttribute="leading" id="2R3-Q9-oym"/>
                             <constraint firstItem="BlT-VD-jop" firstAttribute="trailing" secondItem="nro-yk-ket" secondAttribute="trailing" id="B6p-aY-XNt"/>
-                            <constraint firstItem="viV-R5-BE9" firstAttribute="trailing" secondItem="BlT-VD-jop" secondAttribute="trailing" id="D2I-Yk-JDp"/>
-                            <constraint firstItem="viV-R5-BE9" firstAttribute="top" secondItem="BlT-VD-jop" secondAttribute="top" constant="5" id="XZj-ZY-YbH"/>
                             <constraint firstItem="nro-yk-ket" firstAttribute="leading" secondItem="BlT-VD-jop" secondAttribute="leading" id="hx2-WY-gdl"/>
-                            <constraint firstItem="viV-R5-BE9" firstAttribute="width" secondItem="ed5-b5-f5U" secondAttribute="width" multiplier="0.5" id="inx-Ww-Hsn"/>
                         </constraints>
                     </view>
                 </viewController>
