@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E30DB06273B98D00016F6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DB05273B98D00016F6AB /* AppDelegate.swift */; };
+		1E30DB08273B98D00016F6AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DB07273B98D00016F6AB /* SceneDelegate.swift */; };
+		1E30DB0A273B98D00016F6AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DB09273B98D00016F6AB /* ViewController.swift */; };
+		1E30DB0D273B98D00016F6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E30DB0B273B98D00016F6AB /* Main.storyboard */; };
+		1E30DB0F273B98D30016F6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E30DB0E273B98D30016F6AB /* Assets.xcassets */; };
+		1E30DB12273B98D30016F6AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E30DB10273B98D30016F6AB /* LaunchScreen.storyboard */; };
+		1E30DB1D273B98D30016F6AB /* Amal_Jeli___lab18Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DB1C273B98D30016F6AB /* Amal_Jeli___lab18Tests.swift */; };
+		1E30DB27273B98D30016F6AB /* Amal_Jeli___lab18UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DB26273B98D30016F6AB /* Amal_Jeli___lab18UITests.swift */; };
+		1E30DB29273B98D30016F6AB /* Amal_Jeli___lab18UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30DB28273B98D30016F6AB /* Amal_Jeli___lab18UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E30DB19273B98D30016F6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E30DAFA273B98D00016F6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E30DB01273B98D00016F6AB;
+			remoteInfo = "Amal Jeli - lab18";
+		};
+		1E30DB23273B98D30016F6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E30DAFA273B98D00016F6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E30DB01273B98D00016F6AB;
+			remoteInfo = "Amal Jeli - lab18";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E30DB02273B98D00016F6AB /* Amal Jeli - lab18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amal Jeli - lab18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E30DB05273B98D00016F6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E30DB07273B98D00016F6AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E30DB09273B98D00016F6AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E30DB0C273B98D00016F6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E30DB0E273B98D30016F6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E30DB11273B98D30016F6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E30DB13273B98D30016F6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E30DB18273B98D30016F6AB /* Amal Jeli - lab18Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amal Jeli - lab18Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E30DB1C273B98D30016F6AB /* Amal_Jeli___lab18Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Amal_Jeli___lab18Tests.swift"; sourceTree = "<group>"; };
+		1E30DB22273B98D30016F6AB /* Amal Jeli - lab18UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amal Jeli - lab18UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E30DB26273B98D30016F6AB /* Amal_Jeli___lab18UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Amal_Jeli___lab18UITests.swift"; sourceTree = "<group>"; };
+		1E30DB28273B98D30016F6AB /* Amal_Jeli___lab18UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Amal_Jeli___lab18UITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E30DAFF273B98D00016F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DB15273B98D30016F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DB1F273B98D30016F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E30DAF9273B98D00016F6AB = {
+			isa = PBXGroup;
+			children = (
+				1E30DB04273B98D00016F6AB /* Amal Jeli - lab18 */,
+				1E30DB1B273B98D30016F6AB /* Amal Jeli - lab18Tests */,
+				1E30DB25273B98D30016F6AB /* Amal Jeli - lab18UITests */,
+				1E30DB03273B98D00016F6AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E30DB03273B98D00016F6AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E30DB02273B98D00016F6AB /* Amal Jeli - lab18.app */,
+				1E30DB18273B98D30016F6AB /* Amal Jeli - lab18Tests.xctest */,
+				1E30DB22273B98D30016F6AB /* Amal Jeli - lab18UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E30DB04273B98D00016F6AB /* Amal Jeli - lab18 */ = {
+			isa = PBXGroup;
+			children = (
+				1E30DB05273B98D00016F6AB /* AppDelegate.swift */,
+				1E30DB07273B98D00016F6AB /* SceneDelegate.swift */,
+				1E30DB09273B98D00016F6AB /* ViewController.swift */,
+				1E30DB0B273B98D00016F6AB /* Main.storyboard */,
+				1E30DB0E273B98D30016F6AB /* Assets.xcassets */,
+				1E30DB10273B98D30016F6AB /* LaunchScreen.storyboard */,
+				1E30DB13273B98D30016F6AB /* Info.plist */,
+			);
+			path = "Amal Jeli - lab18";
+			sourceTree = "<group>";
+		};
+		1E30DB1B273B98D30016F6AB /* Amal Jeli - lab18Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E30DB1C273B98D30016F6AB /* Amal_Jeli___lab18Tests.swift */,
+			);
+			path = "Amal Jeli - lab18Tests";
+			sourceTree = "<group>";
+		};
+		1E30DB25273B98D30016F6AB /* Amal Jeli - lab18UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E30DB26273B98D30016F6AB /* Amal_Jeli___lab18UITests.swift */,
+				1E30DB28273B98D30016F6AB /* Amal_Jeli___lab18UITestsLaunchTests.swift */,
+			);
+			path = "Amal Jeli - lab18UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E30DB01273B98D00016F6AB /* Amal Jeli - lab18 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E30DB2C273B98D30016F6AB /* Build configuration list for PBXNativeTarget "Amal Jeli - lab18" */;
+			buildPhases = (
+				1E30DAFE273B98D00016F6AB /* Sources */,
+				1E30DAFF273B98D00016F6AB /* Frameworks */,
+				1E30DB00273B98D00016F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amal Jeli - lab18";
+			productName = "Amal Jeli - lab18";
+			productReference = 1E30DB02273B98D00016F6AB /* Amal Jeli - lab18.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E30DB17273B98D30016F6AB /* Amal Jeli - lab18Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E30DB2F273B98D30016F6AB /* Build configuration list for PBXNativeTarget "Amal Jeli - lab18Tests" */;
+			buildPhases = (
+				1E30DB14273B98D30016F6AB /* Sources */,
+				1E30DB15273B98D30016F6AB /* Frameworks */,
+				1E30DB16273B98D30016F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E30DB1A273B98D30016F6AB /* PBXTargetDependency */,
+			);
+			name = "Amal Jeli - lab18Tests";
+			productName = "Amal Jeli - lab18Tests";
+			productReference = 1E30DB18273B98D30016F6AB /* Amal Jeli - lab18Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E30DB21273B98D30016F6AB /* Amal Jeli - lab18UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E30DB32273B98D30016F6AB /* Build configuration list for PBXNativeTarget "Amal Jeli - lab18UITests" */;
+			buildPhases = (
+				1E30DB1E273B98D30016F6AB /* Sources */,
+				1E30DB1F273B98D30016F6AB /* Frameworks */,
+				1E30DB20273B98D30016F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E30DB24273B98D30016F6AB /* PBXTargetDependency */,
+			);
+			name = "Amal Jeli - lab18UITests";
+			productName = "Amal Jeli - lab18UITests";
+			productReference = 1E30DB22273B98D30016F6AB /* Amal Jeli - lab18UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E30DAFA273B98D00016F6AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					1E30DB01273B98D00016F6AB = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					1E30DB17273B98D30016F6AB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1E30DB01273B98D00016F6AB;
+					};
+					1E30DB21273B98D30016F6AB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1E30DB01273B98D00016F6AB;
+					};
+				};
+			};
+			buildConfigurationList = 1E30DAFD273B98D00016F6AB /* Build configuration list for PBXProject "Amal Jeli - lab18" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E30DAF9273B98D00016F6AB;
+			productRefGroup = 1E30DB03273B98D00016F6AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E30DB01273B98D00016F6AB /* Amal Jeli - lab18 */,
+				1E30DB17273B98D30016F6AB /* Amal Jeli - lab18Tests */,
+				1E30DB21273B98D30016F6AB /* Amal Jeli - lab18UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E30DB00273B98D00016F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E30DB12273B98D30016F6AB /* LaunchScreen.storyboard in Resources */,
+				1E30DB0F273B98D30016F6AB /* Assets.xcassets in Resources */,
+				1E30DB0D273B98D00016F6AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DB16273B98D30016F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DB20273B98D30016F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E30DAFE273B98D00016F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E30DB0A273B98D00016F6AB /* ViewController.swift in Sources */,
+				1E30DB06273B98D00016F6AB /* AppDelegate.swift in Sources */,
+				1E30DB08273B98D00016F6AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DB14273B98D30016F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E30DB1D273B98D30016F6AB /* Amal_Jeli___lab18Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E30DB1E273B98D30016F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E30DB29273B98D30016F6AB /* Amal_Jeli___lab18UITestsLaunchTests.swift in Sources */,
+				1E30DB27273B98D30016F6AB /* Amal_Jeli___lab18UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E30DB1A273B98D30016F6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E30DB01273B98D00016F6AB /* Amal Jeli - lab18 */;
+			targetProxy = 1E30DB19273B98D30016F6AB /* PBXContainerItemProxy */;
+		};
+		1E30DB24273B98D30016F6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E30DB01273B98D00016F6AB /* Amal Jeli - lab18 */;
+			targetProxy = 1E30DB23273B98D30016F6AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E30DB0B273B98D00016F6AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E30DB0C273B98D00016F6AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E30DB10273B98D30016F6AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E30DB11273B98D30016F6AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E30DB2A273B98D30016F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E30DB2B273B98D30016F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E30DB2D273B98D30016F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amal Jeli - lab18/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-Jeli---lab18";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E30DB2E273B98D30016F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amal Jeli - lab18/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-Jeli---lab18";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E30DB30273B98D30016F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-Jeli---lab18Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amal Jeli - lab18.app/Amal Jeli - lab18";
+			};
+			name = Debug;
+		};
+		1E30DB31273B98D30016F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-Jeli---lab18Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amal Jeli - lab18.app/Amal Jeli - lab18";
+			};
+			name = Release;
+		};
+		1E30DB33273B98D30016F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-Jeli---lab18UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amal Jeli - lab18";
+			};
+			name = Debug;
+		};
+		1E30DB34273B98D30016F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.Amal-Jeli---lab18UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amal Jeli - lab18";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E30DAFD273B98D00016F6AB /* Build configuration list for PBXProject "Amal Jeli - lab18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E30DB2A273B98D30016F6AB /* Debug */,
+				1E30DB2B273B98D30016F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E30DB2C273B98D30016F6AB /* Build configuration list for PBXNativeTarget "Amal Jeli - lab18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E30DB2D273B98D30016F6AB /* Debug */,
+				1E30DB2E273B98D30016F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E30DB2F273B98D30016F6AB /* Build configuration list for PBXNativeTarget "Amal Jeli - lab18Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E30DB30273B98D30016F6AB /* Debug */,
+				1E30DB31273B98D30016F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E30DB32273B98D30016F6AB /* Build configuration list for PBXNativeTarget "Amal Jeli - lab18UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E30DB33273B98D30016F6AB /* Debug */,
+				1E30DB34273B98D30016F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E30DAFA273B98D00016F6AB /* Project object */;
+}
